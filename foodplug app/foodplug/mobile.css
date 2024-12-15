@@ -1,0 +1,63 @@
+@media screen and (max-width: 1100px) {
+  /* === Header banner section starts here */
+  .nav-desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+  }
+  /* === Header banner section ends here */
+
+  /* === Header banner section ends here */
+  .banner-text-container {
+    width: 100%;
+  }
+  .banner-content-container {
+    padding-top: 95px;
+  }
+
+  /* === Header banner section ends here */
+
+  /* === About us  section starts here */
+  .about-us-container {
+    justify-content: center;
+  }
+  .about-us-cards-img {
+    min-width: 350px;
+    height: 285pxS;
+  }
+  .about-us-cards-text {
+    width: 90%;
+    margin: 20px 0;
+  }
+  /* === About us  section ends here */
+
+  /* === Explore food section starts here */
+  .food-card-item {
+    margin: 20px 0;
+  }
+
+  .faq-item {
+    min-width: 100%;
+    padding: 0 10px;
+  }
+
+  .parallex {
+    flex-direction: column;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer-icons {
+    margin: 20px 0;
+  }
+  footer button {
+    margin-top: 20px;
+  }
+}
